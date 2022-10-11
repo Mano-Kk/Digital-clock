@@ -6,6 +6,8 @@ body {
      height: 100vh;
      justify-content: center;
      background: url("https://images.unsplash.com/photo-1519638399535-1b036603ac77?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YW5pbWV8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+     background-size: cover;
+     overflow: hidden;
 }
 
 h2{
@@ -22,6 +24,7 @@ h2{
 
 .clock div{
     margin: 5px;
+    position: relative;
 }
 
 .clock span{
@@ -48,9 +51,10 @@ h2{
 
 .clock #ampm{
     bottom: 0;
-    position: relative;
+    position: absolute;
     width: 60px;
     height: 30px;
     font-size: 20px;
     background: green;
 }
+
